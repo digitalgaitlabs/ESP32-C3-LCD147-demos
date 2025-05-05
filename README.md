@@ -8,8 +8,8 @@ Here are a few samples that I made that are working.
 
 Main problem is to ensure that Hardware SPI is used and the corrent LCD pins are used.
 
-<code>
+```c
 Arduino_DataBus *bus = new Arduino_HWSPI(15 /* DC */, 14 /* CS */, 7 /* SCK */, 6 /* MOSI */, GFX_NOT_DEFINED /* MISO */);
 Arduino_GFX *gfx = new Arduino_ST7789(bus,21,0,true,210,320);
-</code>
+```
 
