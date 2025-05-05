@@ -4,7 +4,7 @@ This is sample code for ESP32 C6 board with 1.47in LCD screen. It is a cool, and
 
 Here are a few samples that I made that are working.
 
-ESP32-C6-LCD147-demos
+## ESP32-C6-LCD147-demos
 
 Main problem is to ensure that Hardware SPI is used and the corrent LCD pins are used.
 
